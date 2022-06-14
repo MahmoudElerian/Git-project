@@ -1,0 +1,20 @@
+- 'git add' adds the files to the staging area --> .git/index reference to those files 
+- 'git commit' takes a snapshot of the staged files
+
+- we can use 'commit -am' if you want to add and commit at the same command BUT it's only used when we already made at least one commit to this file before , we can't use it if this file wasn't committed before on this repo
+
+- ' git checkout -- filename.extension ' will revert this file to its state to the last committed state 
+
+- we can make an alias to represent some difficult command to make it easier to use in the future 
+The command git config -- global alias.aliasname "complex cgit command"
+Then we may use directly git alias name and the complex command will be executed directly
+
+- the staging area is inside .git/index , it carries a reference for the files that have been changed
+
+-TAGS: we make it to mark the last commit for example that we have made if wen want to get back to it at any time 
+
+'git tag tagname' and the tag will be created , we need to dig deeper in tags
+
+-STASH:' git stash ' if you want to stash a certain commit for now and then it will be used later
+' Git stash list ' lists all the stashes that we have
+' Git stash pop ' the commit will be back again into the staging area  
