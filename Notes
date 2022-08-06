@@ -18,4 +18,4 @@ Then we may use directly git alias name and the complex command will be executed
 -STASH:' git stash ' if you want to stash a certain commit for now and then it will be used later
 ' Git stash list ' lists all the stashes that we have
 ' Git stash pop ' the commit will be back again into the staging area  
-new change
+new changess
